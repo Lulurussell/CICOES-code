@@ -1,0 +1,30 @@
+name: cmip6-temperature-demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7.*
+  - numpy
+  - ipykernel
+  - jupyter
+  - jupyterlab
+  - scipy
+  - matplotlib
+  - pandas
+  - xarray
+  - sparse
+  - cftime=1.0.3.4
+  - cartopy
+  - netcdf4
+  - tqdm
+  - h5py
+  - h5netcdf
+  - regionmask
+  - xesmf
+  - intake
+  - intake-xarray
+  - zarr
+  - xgcm
+  - pip
+  - pip:
+    - git+https://github.com/intake/filesystem_spec.git@master
+    - intake-esm
